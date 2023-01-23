@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Solitreo&display=swap');
+:root{
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+--Fontsize:15px;
+--fonttitle:18px;
+--font: 'Outfit', sans-serif;
+--W-400: 400;
+--w-700: 700;
+--instagram:'Solitreo', cursive;
+}
+.attribution{
+ font-size: 16px;
+ font-family: var(--instagram );
+}
+@media  (min-width:310px) and (max-width:1024px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    justify-content: center;
+      align-items: center;
+        background-color: var(--Lightgray);
+    }
+    .container-QR{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        width:100%;
+        background-color: var(--White);
+        padding:10px;
+    }
+  
+  .container-QR{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+  }
+    .QR-code{
+      width:300px ;
+      height: auto;
+      margin: 10px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    .title-QR{
+        width: 250px;
+        text-align: center;
+        font-family: var(--font);
+        font-weight:700;
+        font-size: var(--fonttitle);
+        margin: 0px auto;
+    }
+
+    .paragraph{
+        width: 280px;
+        text-align: center;
+    font-size: var(--Fontsize);
+    font-family: var(--font);
+    font-weight: var(--W-400);
+    color: var(--Grayishblue);
+}  
+}
+@media only screen and (min-width:1024px){
+    body{
+        display: flex;
+        flex-direction: column;
+
+    justify-content: center;
+      align-items: center;
+        background-color: var(--Lightgray);
+    }
+    .container-QR{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 80px;
+        margin-top: 50px;
+        width:100%;
+        background-color: var(--White);
+        padding:10px;
+    }
+  
+  .container-QR{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+  }
+    .QR-code{
+      width:300px ;
+      height: auto;
+      margin: 10px;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+    .title-QR{
+        width: 250px;
+        text-align: center;
+        font-family: var(--font);
+        font-weight:700;
+        font-size: var(--fonttitle);
+        margin: 0px auto;
+    }
+
+    .paragraph{
+        width: 280px;
+        text-align: center;
+    font-size: var(--Fontsize);
+    font-family: var(--font);
+    font-weight: var(--W-400);
+    color: var(--Grayishblue);
+}  
+}
