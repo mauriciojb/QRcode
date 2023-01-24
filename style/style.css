@@ -5,7 +5,7 @@
 --Grayishblue: hsl(220, 15%, 55%);
 --Darkblue: hsl(218, 44%, 22%);
 --Fontsize:15px;
---fonttitle:18px;
+--fonttitle:20px;
 --font: 'Outfit', sans-serif;
 --W-400: 400;
 --w-700: 700;
@@ -33,7 +33,7 @@
         margin-top: 20px;
         width:100%;
         background-color: var(--White);
-        padding:10px;
+        padding:20px;
     }
   
   .container-QR{
@@ -46,7 +46,7 @@
     .QR-code{
       width:300px ;
       height: auto;
-      margin: 10px;
+      margin: 0px 20px;
       object-fit: cover;
       border-radius: 20px;
     }
@@ -86,7 +86,7 @@
         margin-top: 50px;
         width:100%;
         background-color: var(--White);
-        padding:10px;
+        padding:20px;
     }
   
   .container-QR{
@@ -99,7 +99,7 @@
     .QR-code{
       width:300px ;
       height: auto;
-      margin: 10px;
+      margin: 0px;
       object-fit: cover;
       border-radius: 20px;
     }
